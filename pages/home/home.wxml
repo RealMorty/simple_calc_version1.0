@@ -1,0 +1,68 @@
+<!--pages/home/home.wxml-->
+<view class="whole-background">
+  <view class="front-background">
+    <view class="number-display">
+      {{screenData}}
+    </view>
+  </view>
+</view>
+<view class="keyboard">
+  <view id="{{idc}}" class="btn2" bindtap="clickBtn">
+    <view class="btn2-circle">C</view>
+  </view>
+  <view id="{{idb}}" class="btn2" bindtap="clickBtn">
+    <view class="btn2-circle">{{vector}}</view>
+  </view>
+  <view class="btn2" bindtap="history">
+    <icon class="icon" color="white" size="40" type="waiting_circle" role='image'></icon>
+    <!-- <image style="width: 100%; height: 100%" mode="scaleToFill" src="../../images/history.png"></image> -->
+  </view>
+  <view id="{{idx}}" class="btn1" bindtap="clickBtn">
+    <view class="btn1-circle">×</view>
+  </view>
+  <view id="{{id7}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">7</view>
+  </view>
+  <view id="{{id8}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">8</view>
+  </view>
+  <view id="{{id9}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">9</view>
+  </view>
+  <view id="{{iddiv}}" class="btn1" bindtap="clickBtn">
+    <view class="btn1-circle">÷</view>
+  </view>
+  <view id="{{id4}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">4</view>
+  </view>
+  <view id="{{id5}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">5</view>
+  </view>
+  <view id="{{id6}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">6</view>
+  </view>
+  <view id="{{idadd}}" class="btn1" bindtap="clickBtn">
+    <view class="btn1-circle">+</view>
+  </view>
+  <view id="{{id1}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">1</view>
+  </view>
+  <view id="{{id2}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">2</view>
+  </view>
+  <view id="{{id3}}" class="btn" bindtap="clickBtn">
+    <view class="btn-circle">3</view>
+  </view>
+  <view id="{{idj}}" class="btn1" bindtap="clickBtn">
+    <view class="btn1-circle">-</view>
+  </view>
+  <view id="{{id0}}" class="btn3" bindtap="clickBtn">
+    <view class="btn3-circle">0</view>
+  </view>
+<view id="{{idd}}" class="btn" bindtap="clickBtn">
+  <view class="btn-circle">.</view>
+</view>
+<view id="{{ide}}" class="btn1" bindtap="clickBtn">
+  <view class="btn1-circle">=</view>
+</view>
+</view>
